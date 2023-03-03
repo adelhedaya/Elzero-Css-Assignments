@@ -1,0 +1,14 @@
+div{
+ padding: 20px;
+    margin: 20px  0;
+    max-width: 400px;
+    width: fit-content;
+    font-weight: bold;
+    max-height: 20px;
+    background-color: rgb(210, 43, 43);
+    color: white;
+    text-transform: capitalize;
+}
+.four{
+    overflow: hidden;
+}

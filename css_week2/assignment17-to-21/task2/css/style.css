@@ -1,0 +1,18 @@
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: 400px;
+    background-color: #eee;
+}

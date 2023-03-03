@@ -1,0 +1,15 @@
+div{
+    background-color: #eee;
+    color:black;
+    padding: 30px;
+    margin: 30px auto;
+    width: 400px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.three{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

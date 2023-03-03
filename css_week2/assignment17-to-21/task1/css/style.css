@@ -1,0 +1,13 @@
+p{
+    padding: 30px;
+    margin:30px auto;
+    width:400px;
+    color: black;
+    background-color: #eee;
+    text-transform: capitalize;
+    text-align:center;
+    font-weight:bold;
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: .5px .5px 0 rgb(238, 83, 27) , 1px 1px 0 rgb(27, 206, 238), 1.5px 1.5px 0 rgb(231, 27, 238)
+}

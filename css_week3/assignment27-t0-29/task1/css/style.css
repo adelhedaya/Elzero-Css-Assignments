@@ -1,0 +1,47 @@
+.parent{ 
+    width: 800px;
+    background-color: #eee;
+    margin: 20px auto;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten{
+    background-color: #ccc;
+    padding: 10px 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+.one{
+    width: calc(100% - 30px);
+}
+.two,
+.three,
+.four{
+    width: calc((100% - 60px) / 3);
+}
+.five,
+.six{
+    width: calc((100% - 45px) / 2);
+}
+.seven,
+.eight,
+.nine,
+.ten{
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}

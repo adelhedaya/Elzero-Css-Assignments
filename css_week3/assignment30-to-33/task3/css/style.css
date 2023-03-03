@@ -1,0 +1,35 @@
+.parent{
+    width: 400px;
+    margin: 20px auto;
+}
+.one,
+.three,
+.five{
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: #eee;
+}
+.one ol li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.three ol{
+    list-style-type: upper-roman;
+}
+.three ol li{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.five ul{
+    padding-left: 0;
+    margin: 5px;
+}
+.five ul li{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    list-style: inside;
+}

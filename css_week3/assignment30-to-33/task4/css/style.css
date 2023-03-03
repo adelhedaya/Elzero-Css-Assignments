@@ -1,0 +1,39 @@
+table{
+    width: 700px;
+    margin: 20px auto;
+}
+table thead td{
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-spacing: 2px;
+}
+table tbody td{
+    background-color: #eee;
+    text-align: center;
+    border-spacing: 2px;
+    padding: 5px;
+    }
+.view{
+    background-color: rgb(0, 170, 255);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-style: none;
+    padding:5px 10px;
+}
+.delete{
+    padding:5px 10px;
+    background-color: rgb(255, 0, 140);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-style: none;
+}
+caption{
+    font-weight: bold;
+    margin: 10px;
+}

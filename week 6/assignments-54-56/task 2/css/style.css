@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    width: 600px;
+    height: 30px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    caret-color: red;
+}
+div::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    bottom: -12px;
+    height: 10%;
+    left: 0px;
+    background-image: linear-gradient(to right, #f44338 50%, #2297f4 50%, #2297f4 100%);
+}

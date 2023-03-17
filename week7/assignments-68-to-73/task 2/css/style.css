@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.root{
+    --maincolor: rgb(17, 196, 220);
+    --secondcolor: white;
+}
+h1{
+    width: 150px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: var(--maincolor, rgb(17, 196, 220));
+    color: var(--secondcolor, white);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -25px;
+    top: 0;
+    background-color: var(--maincolor, rgb(17, 196, 220));
+    z-index: -1;
+    transform: skew(20deg);
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    left: -55px;
+    top: 0;
+    background-color: var(--maincolor, rgb(17, 196, 220));
+    transform: skew(20deg);
+}
